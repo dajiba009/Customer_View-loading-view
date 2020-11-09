@@ -18,3 +18,5 @@ app:startColor="@color/colorAccent"
 app:endColor="@color/colorPrimary"
 ```
 
+图片效果
+![This is a alt text.](https://github.com/dajiba009/Customer_View-loading-view/blob/m/picture.PNG)

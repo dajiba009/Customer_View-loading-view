@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<!--    <com.example.custom_view_circleloading.TestCustomView-->
+<!--        android:id="@+id/test_color"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="200dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/argbevaluator_color"-->
+<!--        android:layout_alignLeft="@+id/test_color"-->
+<!--        android:layout_below="@+id/test_color"-->
+<!--        android:text="变色"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="50dp"/>-->
+
+    <com.example.custom_view_circleloading.CircleView
+        android:id="@+id/circle_view"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:direction="anticlockwise"
+        app:progress_width="50dp"
+        app:outside_radius="100dp"
+        app:startColor="@color/colorAccent"
+        app:endColor="@color/colorPrimary"/>
+
+</RelativeLayout>
